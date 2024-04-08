@@ -1,3 +1,6 @@
+<html>
+  <head><title>Office 2021 Activation</title></head>
+  <body>
 Step 1: 
 Open cmd program with administrator rights.
 
@@ -19,3 +22,5 @@ cscript ospp.vbs /sethst:e8.us.to
 cscript ospp.vbs /act
 
 Your Office 2021 will be activated!!! 
+    </body>
+</html>
