@@ -6,19 +6,19 @@
     }
 </script>
   <body>
-Step 1:<br> 
+<h3 style="color:blue;">Step 1:</h3><br> 
 Open cmd program with administrator rights.<br><br>
 
-Step 2:<br>
+<h3 style="color:blue;">Step 2:</h3><br> 
 (Paste following lines and press enter)<br>
 <b>cd /d %ProgramFiles(x86)%\Microsoft Office\Office16<br>
 cd /d %ProgramFiles%\Microsoft Office\Office16</b><br><br>
 
-Step 3:<br>
+<h3 style="color:blue;">Step 3:</h3><br> 
 (Paste following lines and press enter)<br>
 <b>for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</b><br><br>
 
-Step 4:<br>
+<h3 style="color:blue;">Step 4:</h3><br> 
 (Paste following lines and press enter)<br>
 <b>cscript ospp.vbs /setprt:1688<br>
 cscript ospp.vbs /unpkey:6F7TH >nul<br>
